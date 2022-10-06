@@ -1,3 +1,6 @@
+//go:build aix || linux || solaris || zos
+// +build aix linux solaris zos
+
 package filewatcher
 
 import "golang.org/x/sys/unix"
